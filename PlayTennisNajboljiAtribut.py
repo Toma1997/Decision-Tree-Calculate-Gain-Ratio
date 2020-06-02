@@ -33,8 +33,7 @@ def informacioniDobitak(df, entropyY, attribute, vrednosti):
   return infDobitak
 
 
-# Odredjuje koliko je informacija razdvojena razlicitm vrednostima
-# Preveliki broj vrednosti atributa
+# Odredjuje koliko je informacija razdvojena razlicitm vrednostima.
 def razdvojenostInformacije(n, vrednosti):
   razdvojenost = 0.0
   for i in vrednosti:
